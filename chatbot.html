@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+        chatbot
+    </title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link href="/css/styles.css" rel="stylesheet">
+<link href="C:\Users\nathi\Downloads\movie_chatbot (2)\movie_chatbot\css\chatbot.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+</head>
+
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">AU</option>
+            <option value="ar">AR</option>
+            <option value="tu">TU</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary">Sign in</button>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#top-rated" class="navbar-link">Movie</a>
+          </li>
+
+          <li>
+            <a href="#tv-series" class="navbar-link">Tv Show</a>
+          </li>
+
+          <li>
+            <a href="chatbot.html" class="navbar-link">chabot</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Pricing</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>3
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <section class="msger">
+    
+      <div  class="msger-header-title">
+        <a href=""><i class="fas fa-times" style="right: 0; position: relative; display: block; float: right;"></i></a>
+      </div>
+    <main class="msger-chat" id="chatContainer">
+    <div class="chat-container">
+      <div class="msg left-msg">
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Movie Bot</div>
+            <div class="msg-info-time">00:00</div>
+          </div>
+          <div class="msg-text">
+            Hey, I am chatBot! How can I help you? 😄
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <form class="msger-inputarea">
+        <input type="text" class="msger-input" id="textInput" placeholder="Type your message...">
+        <button type="submit" class="msger-send-btn"  id="sendBtn">Send</button>
+        <button type="button" class="msger-send-btn" id="clearBtn">Clear</button>
+
+      </form>
+  </section>
+
+  <script>
+  
+  
+  </script>
+   <script src="/js/main.js"></script>
+   <script src="/js/chatbot.js"></script>
+</body>
+</html>
